@@ -226,7 +226,7 @@ ssh bandit18@bandit.labs.overthewire.org -p 2220 closes the connection as bash h
 Find other shells with cat /etc/shells
 
 cat /etc/shells
-# /etc/shells: valid login shells
+-># /etc/shells: valid login shells
 /bin/sh
 /bin/bash
 /usr/bin/bash
