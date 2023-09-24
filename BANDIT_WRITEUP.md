@@ -1,4 +1,4 @@
-#**Bandit Level 0**
+**Bandit Level 0**
 ---
 
 SSHed into bandit0 level using the command ssh bandit0@bandit.labs.overthewire.org -p 2220
@@ -7,7 +7,7 @@ Used cat command to reveal the password for next level NH2SXQwcBdpmTEzi3bvBHMM9H
 
 
 
-#**Bandit Level 1**
+**Bandit Level 1**
 ---
 
 SSHed into bandit1 
@@ -17,7 +17,7 @@ Found password rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 
 
 
-#**Bandit Level 2**
+**Bandit Level 2**
 ---
 
 Spaces in file name
@@ -26,7 +26,7 @@ aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 
 
 
-#**Bandit Level 3**
+**Bandit Level 3**
 ---
 
 Cd inhere
@@ -34,7 +34,7 @@ Ls -a
 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
 
 
-#**Bandit Level 4**
+**Bandit Level 4**
 ---
 
 Command file ./-file* to list data types of all files in the directory
@@ -42,7 +42,7 @@ Found file07 as ASCII text
 Pass lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 
 
-#**Bandit Level 5**
+**Bandit Level 5**
 ---
 
 Used command find -type f -size 1033c to find files with 1033 bytes
@@ -53,7 +53,7 @@ P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 etc
 
 
-#**Bandit Level 6**
+**Bandit Level 6**
 ---
 
 find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
@@ -61,7 +61,7 @@ find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
 
 
 
-#**Bandit 7**
+**Bandit 7**
 ---
 
 Cat data.txt | grep millionth
@@ -69,7 +69,7 @@ TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 
 
 
-#**Bandit level 8** 
+**Bandit level 8** 
 ---
 
 Sort data.txt | uniq -u
@@ -77,7 +77,7 @@ EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
 
 
-#**Bandit level 9**
+**Bandit level 9**
 ---
 
 cat data.txt | grep "=="
@@ -88,7 +88,7 @@ bandit9@bandit:~$ strings data.txt | grep "=="
 ========== is
 ========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 
-#**Bandit Level 10**
+**Bandit Level 10**
 ---
 
 echo VGhlIHBhc3N3b3JkIGlzIDZ6UGV6aUxkUjJSS05kTllGTmI2blZDS3pwaGxYSEJNCg== | base64 --decode
@@ -96,7 +96,7 @@ The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 
 
 
-#**Bandit Level 11**
+**Bandit Level 11**
 ---
 
 echo "Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
@@ -104,7 +104,7 @@ The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 
 
-#**Bandit Level 12**
+**Bandit Level 12**
 ---
 
 Annoying level with more compressions than necessary. Created a tmp folder with the name arjnchrn mkdir /tmp/arjnchrn and worked on it. Copied data.txt from home folder to here with “cp    ~/data.txt .”
@@ -116,7 +116,7 @@ The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 
 
 
-#**Bandit Level 13**
+**Bandit Level 13**
 ---
 
 
@@ -134,7 +134,7 @@ Cat and copy contents of sshkey.private to local machine. Change permissions usi
 
 
 
-#**Bandit Level 14**
+**Bandit Level 14**
 ---
 
 Found password for previous level with cat /etc/bandit_pass/bandit14 fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
@@ -145,7 +145,7 @@ jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt (Password for level 15)
 
 
 
-#**Bandit Level 15**
+**Bandit Level 15**
 ---
 
 SSHed into bandit15 using password 
@@ -160,7 +160,7 @@ JQttfApK4SeyHwDlI9SXGR50qclOAil1
 
 
 
-#**Bandit Level 16**
+**Bandit Level 16**
 ---
 
 SSH into bandit16
@@ -245,7 +245,7 @@ cat readme
 awhqfNnAbc1naukrpqDYcF95h7HoMTrC
 
 
-#**Bandit Level 19**
+**Bandit Level 19**
 ---
 
 SSHed into bandit19 
@@ -253,7 +253,7 @@ SSHed into bandit19
 VxCazJaVykI6W36BkBU0mJTCM8rR95XT
 
 
-#**Bandit Level 20**
+**Bandit Level 20**
 ---
 
 SSH into bandit 20 
@@ -272,7 +272,7 @@ Returns
 
 NvEJF7oVjkddltPSrdKEFOllh9V1IBcq (pass for 21)
 
-#**Bandit Level 21**
+**Bandit Level 21**
 ---
 
 Access /etc/cron.d/ 
@@ -292,7 +292,7 @@ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv returns
 WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff (password for 22)
 
 
-#**Bandit Level 22**
+**Bandit Level 22**
 ---
 
 SSH into bandit22
